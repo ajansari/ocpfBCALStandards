@@ -1,5 +1,7 @@
 # OnlyCopilotFans Business Central AL Development Standards
 
+![OnlyCopilotFans Business Central AL Development Standards](images/obcfAlStandardsGuideBanner.png)
+
 **Created by:** AJ Ansari, OnlyCopilotFans  
 **Last Updated:** September 28, 2026  
 **License:** MIT
