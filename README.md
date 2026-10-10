@@ -54,6 +54,7 @@ Every platform claim in the guide is verified against official Microsoft Learn d
 ## What this is not
 
 - **Not a design-pattern catalog.** The guide does not try to teach you the dozens of implementation patterns the community has already documented. For reusable, bug-derived AL patterns see the companion [OCPF BC AL Patterns](https://github.com/ajansari/ocpfBCALPatterns) library; for the broad community catalog see [alguidelines.dev](https://alguidelines.dev).
+- **Not a feature blueprint.** The guide holds rules, not a worked design. For how to build a complete Business Central Copilot feature on a specific BC version, see the [OnlyBCFans BC Copilot Blueprint](https://github.com/ajansari/obcfBCCopilotBlueprint).
 - **Not a build process.** Intake, batching, compile cadence, review gates, sign-offs, and project-document templates belong to whatever build process you run. The guide holds the AL rules that a process applies, and stays silent on the sequence.
 - **Not a copy of your project's parameters.** Every name, ID range, prefix, namespace, and version comes from *your* project's own parameter sheet. The guide never restates them, so the two can never drift apart.
 - **Not test-project scaffolding.** AL-Go workspace structure and test-project layout are out of scope here by design.
@@ -176,6 +177,7 @@ This is the one contract that makes it safe for another document to say *"Standa
 ## Related projects
 
 - **[OCPF BC AL Patterns](https://github.com/ajansari/ocpfBCALPatterns)** — the companion pattern library: reusable AL patterns, each extracted from a real defect, verified against Microsoft Learn or the symbol files. Where this guide says *what the rule is*, a pattern shows *the code that satisfies it*.
+- **[OnlyBCFans BC Copilot Blueprint](https://github.com/ajansari/obcfBCCopilotBlueprint)** — a verified, end-to-end reference for building a whole Business Central Copilot feature in AL (Microsoft-billed and Partner-billed). The Blueprint obeys this guide; where the two seem to disagree, the guide wins and the Blueprint has a bug.
 - **The OnlyCopilotFans BC Agentic Dev Framework** — an end-to-end agentic runbook for Business Central extensions. It is one consumer of this guide: it fetches the guide at a pinned tag into each project and cites its rules by number. The guide does not depend on the framework, and works under any other process.
 - **[alguidelines.dev](https://alguidelines.dev)** — the community AL pattern catalog and style guide. Read it alongside this guide, not instead of it.
 
