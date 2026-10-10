@@ -3,7 +3,7 @@
 ![OnlyCopilotFans Business Central AL Development Standards](images/obcfAlStandardsGuideBanner.png)
 
 **Created by:** AJ Ansari, OnlyCopilotFans  
-**Last Updated:** September 28, 2026  
+**Last Updated:** October 10, 2026 · **Current release:** `v1.12.0.0`  
 **License:** MIT
 
 A governance-first rulebook for building Microsoft Dynamics 365 Business Central **Per-Tenant Extensions (PTEs)** in AL, written so that an AI agent — or a human — can apply every rule without guessing. It is the standalone home of the *OCPF AL Development Standards Guide*, the single source of truth that projects fetch at a pinned release tag.
@@ -64,6 +64,14 @@ Every platform claim in the guide is verified against official Microsoft Learn d
 - **AI coding agents** (Claude Code, GitHub Copilot, and others) that are asked to design, build, translate, upgrade, and ship a Business Central extension with minimal human intervention. The guide is written so an agent can cite a rule by number, apply it, and verify it.
 - **Human AL developers and consultants** who want a single, verified reference for the decisions that are easy to get wrong and expensive to fix later: ID allocation, permission sets, translations, upgrades, API surface.
 - **Reviewers** who need something concrete to review *against*. "Standards §5.4" is a finding; "I don't like this" is not.
+
+## The guide
+
+**[`ocpfALDevStandardsGuide.md`](ocpfALDevStandardsGuide.md)** — Parts 1–11 and Appendices A–E, one file. Pin a release tag when you fetch it:
+
+```
+https://raw.githubusercontent.com/ajansari/ocpfBCALStandards/v1.12.0.0/ocpfALDevStandardsGuide.md
+```
 
 ## What is inside
 
