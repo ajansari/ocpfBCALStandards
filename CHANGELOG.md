@@ -6,6 +6,16 @@ All notable changes to the OCPF AL Development Standards Guide are recorded here
 
 The guide was previously maintained inside the OnlyCopilotFans BC Agentic Dev Framework, where its history up to and including version 1.11.0.0 (September 27, 2026) is recorded. From this repository on, all changes to the guide are logged here.
 
+## [1.12.1.0] — October 15, 2026
+
+Tag `v1.12.1.0`. Wording only; no rule changes.
+
+### Changed
+- **§3.2 Fields to Exclude — the *Obsolete removed* row.** Its rationale read "Already removed from
+  the platform", which a reader could take as "an obsoleted field is deleted" — the opposite of
+  what §9.4 explains (a `Removed` field stays in the table so the schema holds; it is only no longer
+  accessible from AL). The row now says that, and points at §9.4.
+
 ## [1.12.0.0] — October 10, 2026
 
 First standalone release. Tag `v1.12.0.0`.
